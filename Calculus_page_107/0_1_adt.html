@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Quotient Rule</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta content="0_1" name="page-section-id"/>
+</head>
+<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg">
+<div id="interface-container"></div>
+<div id="nav-container"></div>
+<main class="container content mx-auto bg-white mt-auto max-w-5xl p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6" id="content">
+<h1 class="text-2xl font-bold mb-4" data-id="text-0-21" tabindex="0">13.3 Quotient rule</h1>
+<section aria-labelledby="main-heading" data-id="sectioneli5-0-1" data-section-type="text_only" role="article">
+<p class="mb-4" data-id="text-0-22" tabindex="0">There is a similar rule for quotients.</p>
+<p class="mb-4" data-id="text-0-23" tabindex="0">Para probarlo, vamos a la definición de la derivada:</p>
+<div class="text-lg font-semibold mb-4">
+<p class="math" data-id="text-0-24">\(\frac{d}{dx} \frac{f(x)}{g(x)} =\)</p>
+<p class="math mb-4" data-id="text-0-25">\(\lim_{h\to0} \frac{\frac{f(x+h)}{g(x+h)} - \frac{f(x)}{g(x)}}{h}\)</p>
+<p class="math mb-4" data-id="text-0-26">\(= \lim_{h\to0} \frac{f(x+h)g(x) - f(x)g(x+h)}{hg(x)g(x+h)}\)</p>
+<p class="math mb-4" data-id="text-0-27">\(= \lim_{h\to0} \frac{f(x+h)g(x) - f(x)g(x) + f(x)g(x) - f(x)g(x+h)}{hg(x)g(x+h)}\)</p>
+<p class="math mb-4" data-id="text-0-28">\(= \lim_{h\to0} \frac{g(x) \cdot \frac{f(x+h) - f(x)}{h} - f(x) \cdot \frac{g(x+h) - g(x)}{h}}{g(x)g(x+h)}\)</p>
+</div>
+<h2 class="text-xl font-bold mt-6 mb-4" data-id="text-0-31" tabindex="0">Derivatives of quotients (Quotient Rule)</h2>
+<p class="math mb-4" data-id="text-0-32">\(\frac{d}{dx}\left[\frac{f(x)}{g(x)} \right] = \frac{g(x)f'(x) - f(x)g'(x)}{g(x)^2}\)</p>
+<p class="mb-4" data-id="text-0-33" tabindex="0">Some people remember it with the mnemonic "low D-high minus high D-low (over) square the low and away we go!"</p>
+</section>
+</main>
+
+<script src="assets/base.js"></script>
+</body>
+</html>

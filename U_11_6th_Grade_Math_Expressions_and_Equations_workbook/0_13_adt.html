@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="0_0" name="page-section-id"/>
+<title>Simplifying Expressions Activity</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+<!-- Mathjax script to use for rendering math. -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta content="0_13" name="page-section-id"/>
+</head>
+<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg"><div id="interface-container"></div><div id="nav-container"></div>
+<!-- The main content container -->
+<main class="container content border-t-4 border-blue-700 mx-auto bg-white mt-auto max-w-5xl p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6" id="content">
+<h1 class="text-2xl font-bold text-left mb-4" data-id="text-0-3">Activity 4: Simplify the expression.</h1>
+<p class="mb-4 text-gray-700" data-id="text-0-4">If the expression is already simplified, write "already simplified".</p>
+<!-- Section container -->
+<section data-id="sectioneli5-0-13" data-section-type="activity_other" role="activity">
+<div class="grid grid-cols-1 gap-4">
+<!-- Expression "n" -->
+<div class="bg-gray-100 p-4 rounded-lg shadow-md">
+<span class="block text-lg font-semibold" data-id="text-0-31">n.</span>
+<div class="flex items-center justify-between gap-4">
+<span class="math-expression" data-id="text-0-32">\(4x + 9x + 15 - 8\)</span>
+<input aria-label="Simplified expression for 4x + 9x + 15 - 8" class="border p-2 rounded w-full max-w-xs focus:ring-2 focus:ring-blue-600" data-aria-id="aria-0-13-0" data-placeholder-id="placeholder-0-13-0" placeholder="Enter your simplification" tabindex="0" type="text"/>
+</div>
+</div>
+</div>
+</section>
+<!-- MathJax configuration to render LaTeX -->
+<script>
+            MathJax = {
+                startup: {
+                    ready: () => {
+                        MathJax.startup.defaultReady();
+                        MathJax.startup.promise.then(() => {
+                            MathJax.typeset();
+                        });
+                    }
+                }
+            }
+        </script>
+<script type="module">
+            import * as MathJax from 'https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js';
+            window.MathJax = MathJax;
+        </script>
+</main>
+
+<script src="assets/base.js"></script>
+</body>
+</html>
